@@ -6,7 +6,9 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        $a = 100 - 1;
+
+        return view('welcome_message', compact('a'));
     }
 
     public function test()
