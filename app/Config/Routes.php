@@ -39,6 +39,8 @@ $routes->get('/', 'Home::index');
 
 $routes->get('/test', 'Home::test');
 
+$routes->get('/test-email', 'Home::test');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
